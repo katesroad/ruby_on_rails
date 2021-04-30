@@ -9,7 +9,7 @@ class Airline
   before_create :slugify
 
   def slugify
-    self.slug = slug.parameterize 
+    self.slug = slug.parameterize
   end
 
   def  avg_score

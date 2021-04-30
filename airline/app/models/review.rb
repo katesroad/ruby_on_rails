@@ -5,6 +5,6 @@ class Review
   field :score, type: Integer
   field :airline, type: String
 
-  belongs_to: airline
-  
+  belongs_to :airline
+
 end
