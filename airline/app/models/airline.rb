@@ -1,5 +1,7 @@
 class Airline
   include Mongoid::Document
+  include Mongoid::Attributes::Dynamic
+  include Mongoid::Timestamps
   field :name, type: String
   field :image_url, type: String
   field :slug, type: String
