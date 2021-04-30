@@ -14,7 +14,9 @@ book1.pages = 20
 puts(book1)
 puts(book1.title)
 
-# everything is object
+
+
+# everything is object in ruby
 
 
 class Person
@@ -24,7 +26,14 @@ class Person
     @name = name
     @age = age
   end
+  def whoAmI
+    puts "Hello, I'm " + @name
+  end
 end
 
 kate = Person.new('kate', 20)
 puts(kate.name)
+
+kate.whoAmI
+
+
