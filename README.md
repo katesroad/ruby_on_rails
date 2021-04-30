@@ -7,3 +7,7 @@ Ruby on Rail
 ## Errors track
 
 - [mongoid generation issue](https://stackoverflow.com/questions/65523055/rails-g-mongoidconfig-not-working-rails-6-1)
+
+## Concepts
+
+- [what is spring](https://github.com/rails/spring)
