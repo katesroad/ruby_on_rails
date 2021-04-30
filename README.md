@@ -11,3 +11,8 @@ Ruby on Rail
 ## Concepts
 
 - [what is spring](https://github.com/rails/spring)
+- [MVC in rails]()
+  - **Routes**: Matchers for the URL that is requested, we will give that to the Controller to handle
+  - **Views**: your response body content(response)
+  - **Controllers**: Decide how to process a request and define a response
+  - **Models**: Database Wrapper
